@@ -1,168 +1,105 @@
-# 🤖 Karoline | AI Developer & Backend Developer
+# Karoline Silva
 
-<div align="center">
+**Software Engineer** · Arquitetura e entrega end-to-end de produtos Web e Mobile
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=9D7BEA&center=true&vCenter=true&width=550&lines=AI+Developer+%F0%9F%A7%A0%E2%9C%A8;Building+Intelligent+Systems;Python+%E2%80%A2+LangChain+%E2%80%A2+FastAPI;Backend+%7C+Machine+Learning)](https://git.io/typing-svg)
+Trabalho do levantamento de requisitos ao deploy: APIs e microsserviços, interfaces
+web de alta performance, aplicações mobile multiplataforma e orquestração de
+agentes de IA integrados ao produto.
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karoline-silva-8070a634b/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KarolNutty)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-9D7BEA?style=flat-square&logo=vercel&logoColor=white)](https://seu-portfolio.vercel.app)
-
-</div>
-
----
-
-## 🌸 Sobre Mim
-
-Olá! Sou engenheira de IA e desenvolvedora backend apaixonada por **inteligência artificial** e sistemas inteligentes. Estudante de Engenharia de Software com foco em ML/AI, construindo soluções que transformam dados em decisões inteligentes.
-
-🧠 Especializada em LLMs, RAG e agentes autônomos  
-💜 Criando aplicações de IA do zero com Python e frameworks modernos  
-✨ Transformando complexidade em soluções elegantes e escaláveis
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karoline-silva-8070a634b/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:karoline.sln22@gmail.com)
 
 ---
 
-## 💻 Stack Tecnológica
+## Projetos
 
-<div align="center">
+Cada um resolve um problema real e documenta **por que** foi construído assim.
 
-### AI & Machine Learning 🤖
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
-![LangFlow](https://img.shields.io/badge/LangFlow-9D7BEA?style=for-the-badge&logo=flow&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6B9D?style=for-the-badge&logo=graphql&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=llama&logoColor=white)
+### [Cadência](https://github.com/KarolNutty/cadencia) · monorepo TypeScript
 
-### Data Science 📊
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+App de estudo de idiomas para escolas, com painel do professor. Três aplicações e
+um domínio compartilhado: o **mesmo módulo de agendamento roda no aplicativo e no
+servidor**, então a tela responde na hora e os dois não têm como divergir.
 
-### Backend & APIs 💜
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+Autenticação com rotação de token e detecção de reúso, autorização por recurso,
+197 testes mais integração contra Postgres real.
 
-### Databases 🗄️
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+`React Native` · `React` · `Fastify` · `PostgreSQL` · `Zod` · `Vitest`
 
-### DevOps & Cloud ☁️
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### [Copiloto de Atendimento](https://github.com/KarolNutty/copiloto-atendimento) · IA + engenharia
 
-### LLM Models 🧠
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Claude-9D7BEA?style=for-the-badge&logo=anthropic&logoColor=white)
-![Google](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=llama&logoColor=white)
+Painel de analytics onde o modelo **nunca vê os dados brutos e nunca calcula**.
+Ele chama ferramentas tipadas, o código computa, o modelo narra — o que elimina
+a classe de erro mais comum em produto com LLM: número inventado com confiança.
 
-</div>
+Provedores Anthropic, OpenAI e simulado; roda por completo sem chave de API.
 
----
+`TypeScript` · `Fastify` · `SSE` · `React` · `Tool calling`
 
-## 🚀 Projetos em Destaque
+### [Caderneta](https://github.com/KarolNutty/Caderneta---Flutter-) · Flutter offline-first
 
-### 🤖 [Nome do Projeto IA](https://github.com/KarolNutty/projeto-1)
-Sistema RAG com LangChain para consulta inteligente de documentos  
-`Python` • `LangChain` • `FastAPI` • `PostgreSQL`
+Controle de fiado para pequeno comércio. SQLite é a fonte da verdade, não um
+cache: escrita local e fila de envio na **mesma transação**, e lançamento é fato
+imutável — o que torna a sincronização entre aparelhos uma união de conjuntos em
+vez de um merge de dinheiro.
 
-### 💬 [Chatbot Inteligente](https://github.com/KarolNutty/projeto-2)
-Agente conversacional com memória e contexto usando LangGraph  
-`LangGraph` • `OpenAI` • `Supabase` • `Docker`
+`Flutter` · `Dart` · `SQLite` · `Riverpod`
 
-### 📊 [Pipeline de Análise](https://github.com/KarolNutty/projeto-3)
-Pipeline ETL com análise de dados e ML predictions  
-`Pandas` • `NumPy` • `FastAPI` • `MySQL`
+### [Painel MF](https://github.com/KarolNutty/painel-mf) · micro frontends
 
-### 🔍 [API de Busca Semântica](https://github.com/KarolNutty/projeto-4)
-API de busca vetorial com embeddings e LlamaIndex  
-`LlamaIndex` • `Flask` • `PostgreSQL` • `Docker`
+Painel de atendimento com Module Federation. Quatro barreiras de isolamento
+garantem que um módulo remoto fora do ar não derrube o resto da aplicação.
+
+`Vite` · `Module Federation` · `React` · `TypeScript`
+
+### [Maré UI](https://github.com/KarolNutty/mare-ui) · design system
+
+Biblioteca de componentes com arquitetura de tokens em duas camadas, 15
+componentes acessíveis e Storybook publicado.
+
+`React` · `TypeScript` · `Storybook` · `Testing Library`
+
+<!--
+Acrescente aqui os anteriores, no mesmo formato:
+
+### [Nome](link) · descrição curta
+Uma ou duas frases sobre o problema e a decisão técnica que o resolve.
+`Stack` · `Stack` · `Stack`
+-->
 
 ---
 
-## 🎯 Áreas de Expertise
+## Stack
 
-```python
-karoline = {
-    "ai_engineering": [
-        "LLM Applications",
-        "RAG Systems", 
-        "Autonomous Agents",
-        "Prompt Engineering"
-    ],
-    "backend": [
-        "FastAPI",
-        "Flask",
-        "RESTful APIs",
-        "Microservices"
-    ],
-    "data": [
-        "Pandas",
-        "NumPy",
-        "Data Analysis",
-        "ETL Pipelines"
-    ],
-    "frameworks": [
-        "LangChain",
-        "LangFlow",
-        "LangGraph",
-        "LlamaIndex"
-    ],
-    "databases": [
-        "PostgreSQL",
-        "Supabase",
-        "MySQL",
-        "Vector DBs"
-    ],
-    "devops": ["Docker", "GCP", "CI/CD"],
-    "passion": "Construir sistemas que aprendem e evoluem 🧠✨"
-}
-```
+**Mobile** — Flutter (BLoC, Riverpod, GoRouter), Kotlin Multiplatform, React Native
+
+**Frontend** — Next.js, React, TypeScript, Tailwind CSS
+
+**Backend** — Node.js, NestJS, Kotlin, Golang, Python (FastAPI)
+
+**IA** — LangChain, LangGraph, LlamaIndex, arquitetura RAG, agentes autônomos
+
+**Dados** — PostgreSQL, MySQL, MongoDB, SQLite, Supabase
+
+**Infra** — Google Cloud, Azure, Docker, CI/CD, Fastlane, Firebase
 
 ---
 
-## 📊 GitHub Stats
+## Onde estou hoje
 
-<div align="center">
+**Software Engineer** no Estúdio Oggi — soluções Web e Mobile de ponta a ponta,
+da concepção à entrega. Backend em Python e Node, sistema próprio de disparo de
+e-mail em Golang, interfaces em Next.js, e integração de fluxos e agentes com
+LangChain e LangGraph.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KarolNutty&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=9D7BEA&icon_color=B794F6&text_color=A0AEC0)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KarolNutty&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=9D7BEA&text_color=A0AEC0)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=KarolNutty&theme=midnight-purple&hide_border=true&background=0D1117&ring=9D7BEA&fire=FF6B9D&currStreakLabel=9D7BEA)
-
-</div>
-
----
-
-## 🌟 Atualmente Explorando
-
-- 🔬 Agentes autônomos com LangGraph e multi-agent systems
-- 🎨 Fine-tuning de modelos para casos de uso específicos
-- 🚀 Otimização de performance em aplicações LLM
-- 💾 Vector databases e semantic search avançado
-- ☁️ Deploy de modelos em produção com GCP
-
----
-
-## 💌 Vamos Conectar?
-
-Sempre aberta para colaborar em projetos de IA, discutir arquiteturas de sistemas inteligentes ou trocar experiências sobre ML/AI! 🤖💜
-
-**Email:** karoline.dev22@gmail.com
+Antes, **AI Engineer** no Studio Beyond — agentes autônomos para qualificação de
+leads, com pipelines assíncronos integrando LLMs a bancos de dados e tratamento
+de falhas em conversas de múltiplos turnos.
 
 ---
 
 <div align="center">
 
-✨ **"Building the future with AI, one model at a time"** ✨
-
-![Profile Views](https://komarev.com/ghpvc/?username=KarolNutty&color=9D7BEA&style=flat-square)
+![Estatísticas](https://github-readme-stats.vercel.app/api?username=KarolNutty&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9D7BEA&icon_color=B794F6&text_color=A0AEC0)
 
 </div>
