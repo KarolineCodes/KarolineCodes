@@ -13,18 +13,21 @@ agentes de IA integrados ao produto.
 
 ## Projetos
 
-Cada um resolve um problema real e documenta **por que** foi construído assim.
-
 ### [Cadência](https://github.com/KarolNutty/cadencia) · monorepo TypeScript
 
-App de estudo de idiomas para escolas, com painel do professor. Três aplicações e
-um domínio compartilhado: o **mesmo módulo de agendamento roda no aplicativo e no
-servidor**, então a tela responde na hora e os dois não têm como divergir.
+Plataforma de estudo para escolas de idiomas, com área do aluno e painel do
+professor. O **mesmo módulo de agendamento roda no navegador e no servidor**,
+então a tela responde na hora e os dois não têm como divergir.
 
-Autenticação com rotação de token e detecção de reúso, autorização por recurso,
-197 testes mais integração contra Postgres real.
+Repetição espaçada adaptada ao calendário da escola, nivelamento que converge em
+oito perguntas, correção de redação e conversação com IA que cita o trecho exato
+e é verificada contra o texto. Autenticação com rotação de token e detecção de
+reúso, autorização por recurso, 356 testes mais 147 de integração contra
+Postgres real.
 
-`React Native` · `React` · `Fastify` · `PostgreSQL` · `Zod` · `Vitest`
+`React` · `Fastify` · `PostgreSQL` · `Zod` · `Gemini` · `Vitest`
+
+O app móvel vive em [cadencia-app](https://github.com/KarolNutty/cadencia-app).
 
 ### [Copiloto de Atendimento](https://github.com/KarolNutty/copiloto-atendimento) · IA + engenharia
 
