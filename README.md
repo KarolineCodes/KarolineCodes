@@ -103,6 +103,6 @@ de falhas em conversas de múltiplos turnos.
 
 <div align="center">
 
-![Estatísticas](https://github-readme-stats.vercel.app/api?username=KarolNutty&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9D7BEA&icon_color=B794F6&text_color=A0AEC0)
+![Estatísticas](https://github-readme-stats.vercel.app/api?username=KarolineCodes&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9D7BEA&icon_color=B794F6&text_color=A0AEC0)
 
 </div>
