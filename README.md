@@ -6,8 +6,8 @@ Trabalho do levantamento de requisitos ao deploy: APIs e microsserviços, interf
 web de alta performance, aplicações mobile multiplataforma e orquestração de
 agentes de IA integrados ao produto.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karoline-silva-8070a634b/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:karoline.sln22@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karolinencs/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:karoline.ncs22@gmail.com)
 
 ---
 
