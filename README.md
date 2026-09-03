@@ -13,7 +13,7 @@ agentes de IA integrados ao produto.
 
 ## Projetos
 
-### [Cadência](https://github.com/KarolNutty/cadencia) · monorepo TypeScript
+### [Cadência](https://github.com/KarolineCodes/cadencia) · monorepo TypeScript
 
 Plataforma de estudo para escolas de idiomas, com área do aluno e painel do
 professor. O **mesmo módulo de agendamento roda no navegador e no servidor**,
@@ -27,7 +27,7 @@ Postgres real.
 
 `React` · `Fastify` · `PostgreSQL` · `Zod` · `Gemini` · `Vitest`
 
-O app móvel vive em [cadencia-app](https://github.com/KarolNutty/cadencia-app).
+O app móvel vive em [cadencia-app](https://github.com/KarolineCodes/cadencia-app).
 
 ### [Copiloto de Atendimento](https://github.com/KarolNutty/copiloto-atendimento) · IA + engenharia
 
@@ -39,7 +39,7 @@ Provedores Anthropic, OpenAI e simulado; roda por completo sem chave de API.
 
 `TypeScript` · `Fastify` · `SSE` · `React` · `Tool calling`
 
-### [Caderneta](https://github.com/KarolNutty/Caderneta---Flutter-) · Flutter offline-first
+### [Caderneta](https://github.com/KarolineCodes/Caderneta---Flutter-) · Flutter offline-first
 
 Controle de fiado para pequeno comércio. SQLite é a fonte da verdade, não um
 cache: escrita local e fila de envio na **mesma transação**, e lançamento é fato
@@ -48,14 +48,14 @@ vez de um merge de dinheiro.
 
 `Flutter` · `Dart` · `SQLite` · `Riverpod`
 
-### [Painel MF](https://github.com/KarolNutty/painel-mf) · micro frontends
+### [Painel MF](https://github.com/KarolineCodes/painel-mf) · micro frontends
 
 Painel de atendimento com Module Federation. Quatro barreiras de isolamento
 garantem que um módulo remoto fora do ar não derrube o resto da aplicação.
 
 `Vite` · `Module Federation` · `React` · `TypeScript`
 
-### [Maré UI](https://github.com/KarolNutty/mare-ui) · design system
+### [Maré UI](https://github.com/KarolineCodes/mare-ui) · design system
 
 Biblioteca de componentes com arquitetura de tokens em duas camadas, 15
 componentes acessíveis e Storybook publicado.
