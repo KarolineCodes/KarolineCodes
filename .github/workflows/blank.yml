@@ -17,14 +17,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Este card soma dados da conta inteira: seguidores, commits, PRs e
+      # issues. O GITHUB_TOKEN embutido é escopado no repositório e não
+      # alcança isso, por isso aqui vai um token pessoal com read:user.
       - name: Card de estatísticas
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9D7BEA&icon_color=B794F6&text_color=A0AEC0
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
+      # Este só lê repositórios, então o token embutido dá conta.
       - name: Card de linguagens
         uses: readme-tools/github-readme-stats-action@v1
         with:
