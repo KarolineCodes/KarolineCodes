@@ -1,0 +1,42 @@
+name: Atualizar cards do README
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # todo dia às 3h UTC
+  workflow_dispatch:       # e um botão pra rodar na hora
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+
+    # O token embutido vem só de leitura por padrão em muitas contas.
+    # Sem esta linha, o passo de commit falha com 403.
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Card de estatísticas
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=9D7BEA&icon_color=B794F6&text_color=A0AEC0
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Card de linguagens
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=9D7BEA&text_color=A0AEC0
+          path: profile/linguagens.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comitar os cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Atualiza cards do README" || exit 0
+          git push
